@@ -8,10 +8,8 @@ web:
       index:
         - index.html
       passthru: false
-dependencies:
-  ruby:
-    bundler: "*"
 hooks:
   build: |
+    gem install bundler
     bundle install
     jekyll build
