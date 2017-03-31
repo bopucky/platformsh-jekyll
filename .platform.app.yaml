@@ -8,6 +8,9 @@ web:
       index:
         - index.html
       passthru: false
+dependencies:
+  ruby:
+    bundler: "*"
 hooks:
   build: |
     bundle install
