@@ -12,5 +12,4 @@ hooks:
   build: |
     gem install bundler -v '~> 2.1.4'
     bundle install --binstubs
-    find . -type f -iname 'jekyll'
     bin/jekyll build
